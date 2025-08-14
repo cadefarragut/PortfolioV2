@@ -10,10 +10,10 @@ import ThemeToggle from "./ThemeToggle";
 const Home = () => {
   // Mock data for professional links
   const professionalLinks = {
-    linkedin: "https://linkedin.com/in/yourprofile",
-    github: "https://github.com/yourusername",
-    resume: "/path-to-your-resume.pdf",
-    email: "your.email@example.com",
+    linkedin: "https://www.linkedin.com/in/cadefarragut/",
+    github: "https://github.com/cadefarragut",
+    resume: "/resume.pdf",
+    email: "cade_farragut@yahoo.com",
   };
 
   return (
