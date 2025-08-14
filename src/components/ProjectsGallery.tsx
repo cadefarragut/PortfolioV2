@@ -89,6 +89,17 @@ const ProjectsGallery = ({
 const defaultProjects: Project[] = [
   {
     id: "1",
+    title: "Automated Bartender",
+    description:
+      "An Automated Bartender built with an Allen Bradley PLC and HMI Touchscreen Interface.",
+    technologies: ["Ladder Logic", "Studio 5000", "EtherNet/IP", "Electrical Engineering"],
+    imageUrl:
+      "../../resources/IMG_3530.jpg",
+    demoUrl: "https://github.com/cadefarragut/Automated-Bartender",
+    repoUrl: "https://github.com/cadefarragut/Automated-Bartender",
+  },
+  {
+    id: "2",
     title: "Personal Portfolio Website",
     description:
       "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
@@ -96,62 +107,7 @@ const defaultProjects: Project[] = [
     imageUrl:
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
     demoUrl: "https://example.com",
-    repoUrl: "https://github.com/example/portfolio",
-  },
-  {
-    id: "2",
-    title: "E-commerce Platform",
-    description:
-      "A full-stack e-commerce application with user authentication, product catalog, and payment processing.",
-    technologies: ["React", "Node.js", "MongoDB"],
-    imageUrl:
-      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
-    demoUrl: "https://example.com/ecommerce",
-    repoUrl: "https://github.com/example/ecommerce",
-  },
-  {
-    id: "3",
-    title: "Weather Dashboard",
-    description:
-      "A weather application that displays current and forecasted weather data using a third-party API.",
-    technologies: ["JavaScript", "API", "CSS"],
-    imageUrl:
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
-    demoUrl: "https://example.com/weather",
-    repoUrl: "https://github.com/example/weather-app",
-  },
-  {
-    id: "4",
-    title: "Task Management App",
-    description:
-      "A productivity application for managing tasks, with drag-and-drop functionality and user authentication.",
-    technologies: ["React", "Firebase", "Tailwind"],
-    imageUrl:
-      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
-    demoUrl: "https://example.com/tasks",
-    repoUrl: "https://github.com/example/task-manager",
-  },
-  {
-    id: "5",
-    title: "Social Media Dashboard",
-    description:
-      "An analytics dashboard that visualizes social media metrics and engagement statistics.",
-    technologies: ["Vue.js", "D3.js", "Node.js"],
-    imageUrl:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    demoUrl: "https://example.com/dashboard",
-    repoUrl: "https://github.com/example/social-dashboard",
-  },
-  {
-    id: "6",
-    title: "Recipe Finder App",
-    description:
-      "A mobile-responsive application that allows users to search for recipes based on ingredients they have.",
-    technologies: ["JavaScript", "API", "CSS"],
-    imageUrl:
-      "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&q=80",
-    demoUrl: "https://example.com/recipes",
-    repoUrl: "https://github.com/example/recipe-finder",
+    repoUrl: "https://github.com/cadefarragut/PortfolioV2",
   },
 ];
 

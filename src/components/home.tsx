@@ -114,32 +114,32 @@ const Home = () => {
               {/* Experience Item 1 */}
               <div className="border rounded-lg p-6 bg-card">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                  <h4 className="text-xl font-medium">Senior Developer</h4>
+                  <h4 className="text-xl font-medium">Systems Software Engineer</h4>
                   <div className="text-muted-foreground">
-                    Jan 2020 - Present
+                    Jun 2025 - Present
                   </div>
                 </div>
-                <div className="text-lg mb-2">Company Name</div>
+                <div className="text-lg mb-2">Hewlett Packard Enterprise</div>
                 <p className="text-muted-foreground">
-                  Led development of key features for enterprise applications.
-                  Mentored junior developers and implemented best practices for
-                  code quality and performance optimization.
+                I develop and maintain firmware for HPE iLO, a dedicated management interface that operates independently of the server's primary hardware and operating system, 
+					enabling full remote administration at all times. Our team manages bugs and tasks through the JIRA ticketing system and uses active sprints to track progress and meet deadlines. 
+					I work closely with hardware and software engineering teams to identify root causes and implement solutions through hands-on debugging, testing, and validation.
                 </p>
               </div>
 
               {/* Experience Item 2 */}
               <div className="border rounded-lg p-6 bg-card">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                  <h4 className="text-xl font-medium">Web Developer</h4>
+                  <h4 className="text-xl font-medium">Software Engineering Intern</h4>
                   <div className="text-muted-foreground">
-                    Mar 2017 - Dec 2019
+                    May 2024 - Aug 2024
                   </div>
                 </div>
-                <div className="text-lg mb-2">Previous Company</div>
+                <div className="text-lg mb-2">Hewlett Packard Enterprise</div>
                 <p className="text-muted-foreground">
-                  Developed responsive web applications using modern JavaScript
-                  frameworks. Collaborated with design team to implement UI/UX
-                  improvements and optimize site performance.
+                I developed a Python script in Eclipse that integrated Postman APIs and Redfish to automate server testing for HPE's iLO chip. 
+					      I was responsible for running daily test passes, diagnosing failures, and identifying bugs in recent code merges. 
+					      At the end of my 12-week internship, I presented my work at the HPE intern project fair.
                 </p>
               </div>
             </div>
