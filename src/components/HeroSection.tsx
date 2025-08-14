@@ -13,13 +13,13 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({
-  name = "John Doe",
-  title = "Full Stack Developer",
+  name = "Cade Farragut",
+  title = "Software Engineer",
   biography = "Passionate developer with expertise in building modern web applications. Focused on creating elegant solutions to complex problems with clean, maintainable code.",
-  resumeUrl = "#",
-  linkedinUrl = "https://linkedin.com",
-  githubUrl = "https://github.com",
-  profileImageUrl = "https://api.dicebear.com/7.x/avataaars/svg?seed=portfolio",
+  resumeUrl = "../../resources/resume.pdf",
+  linkedinUrl = "https://www.linkedin.com/in/cadefarragut/",
+  githubUrl = "https://github.com/cadefarragut",
+  profileImageUrl = "../../resources/IMG_5874.jpg",
 }: HeroSectionProps) => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">

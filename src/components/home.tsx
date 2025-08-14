@@ -12,7 +12,7 @@ const Home = () => {
   const professionalLinks = {
     linkedin: "https://www.linkedin.com/in/cadefarragut/",
     github: "https://github.com/cadefarragut",
-    resume: "/resume.pdf",
+    resume: "../../resources/resume.pdf",
     email: "cade_farragut@yahoo.com",
   };
 
@@ -21,7 +21,7 @@ const Home = () => {
       {/* Header/Navigation */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
-          <div className="font-bold text-xl">Your Name</div>
+          <div className="font-bold text-xl">Cade Farragut</div>
 
           <nav className="hidden md:flex items-center gap-6">
             <a href="#about" className="text-sm font-medium hover:text-primary">
