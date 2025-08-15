@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 
-import bartenderImage from "../assets/IMG_3530.jpg";
+import bartenderImage from "../assets/Screenshot 2025-08-14 205344.jpg";
 import portrfolioImage from "../assets/projpic.jpg";
 
 interface Project {
