@@ -95,7 +95,7 @@ const defaultProjects: Project[] = [
     title: "Automated Bartender",
     description:
       "An Automated Bartender built with an Allen Bradley PLC and HMI Touchscreen Interface.",
-    technologies: ["Ladder Logic", "Studio 5000", "EtherNet/IP", "Electrical Engineering"],
+    technologies: ["Ladder Logic", "Studio 5000", "EtherNet/IP"],
     imageUrl:
       bartenderImage,
     demoUrl: "https://github.com/cadefarragut/Automated-Bartender",
