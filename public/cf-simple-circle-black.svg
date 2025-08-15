@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Simple CF Circle Logo - Black</title>
+  <desc id="desc">Minimal bold CF letters inside a solid black circle.</desc>
+  <style>
+    .bg { fill: #000000; } /* pure black */
+    .text { font-family: 'Segoe UI', sans-serif; font-weight: 800; font-size: 240px; fill: white; }
+  </style>
+  <circle class="bg" cx="256" cy="256" r="256"/>
+  <text class="text" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">CF</text>
+</svg>
