@@ -165,20 +165,83 @@ const Home = () => {
                           Hewlett Packard Enterprise
                         </div>
                       </div>
-                      <div className="bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium border border-border">
+                      <div className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium border border-primary/20">
                         May 2024 - Aug 2024
                       </div>
                     </div>
                     <p className="text-muted-foreground leading-relaxed">
                       I developed a Python script in Eclipse that integrated
-                      Postman APIs and Redfish to automate server testing for
-                      HPE's iLO chip. I was responsible for running daily test
-                      passes, diagnosing failures, and identifying bugs in
-                      recent code merges. At the end of my 12-week internship, I
-                      presented my work at the HPE intern project fair.
+                      Redfish REST API and Postman Software to automate server
+                      testing for HPE's iLO chip. I was responsible for running
+                      daily test passes, diagnosing failures, and identifying
+                      bugs in recent code merges. At the end of my 12-week
+                      internship, I presented my work at the HPE intern project
+                      fair.
                     </p>
                   </div>
                 </div>
+
+                {/* Experience Item 3 */}
+                <div className="relative">
+                  {/* Timeline Dot */}
+                  <div className="absolute left-6 top-6 w-4 h-4 bg-primary rounded-full border-4 border-background shadow-lg hidden md:block"></div>
+
+                  <div className="md:ml-20 bg-gradient-to-br from-card to-card/80 rounded-xl p-8 shadow-lg border border-border/50 hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-4">
+                      <div className="flex-1">
+                        <h4 className="text-2xl font-bold text-foreground mb-2">
+                          Firmware Tester and Developer Intern
+                        </h4>
+                        <div className="flex items-center gap-2 text-lg font-semibold text-primary mb-3">
+                          <div className="w-2 h-2 bg-primary rounded-full"></div>
+                          Hewlett Packard Enterprise
+                        </div>
+                      </div>
+                      <div className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium border border-primary/20">
+                        May 2023 - Aug 2023
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      I develop and maintain firmware for HPE iLO, a dedicated
+                      management interface that operates independently of the
+                      server's primary hardware and operating system, enabling
+                      full remote administration at all times. Our team manages
+                      bugs and tasks through the JIRA ticketing system and uses
+                      active sprints to track progress and meet deadlines. I
+                      work closely with hardware and software engineering teams
+                      to identify root causes and implement solutions through
+                      hands-on debugging, testing, and validation.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Experience Item 4 */}
+                <div className="relative">
+                  {/* Timeline Dot */}
+                  <div className="absolute left-6 top-6 w-4 h-4 bg-primary rounded-full border-4 border-background shadow-lg hidden md:block"></div>
+
+                  <div className="md:ml-20 bg-gradient-to-br from-card to-card/80 rounded-xl p-8 shadow-lg border border-border/50 hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-4">
+                      <div className="flex-1">
+                        <h4 className="text-2xl font-bold text-foreground mb-2">
+                          Senior IT Lead
+                        </h4>
+                        <div className="flex items-center gap-2 text-lg font-semibold text-primary mb-3">
+                          <div className="w-2 h-2 bg-primary rounded-full"></div>
+                          Louisiana State University IT
+                        </div>
+                      </div>
+                      <div className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium border border-primary/20">
+                        May 2023 - May 2024
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                    Managed a team of five Technical Support Agents, conducted ticket reviews and weekly call evaluations for quality assurance, and trained over five new hires for the Technical Support Agent role.
+                    Resolved over 1,000 technical issues for LSU students, faculty, and staff through phone calls, in-person walkups, live chats, and emails. 
+                    </p>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -227,7 +290,7 @@ const Home = () => {
       <footer className="border-t py-6 md:py-0">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4 md:h-16">
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Cade Farragut. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
             <a

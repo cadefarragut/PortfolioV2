@@ -20,28 +20,16 @@ interface TechStackVisualizationProps {
 
 const defaultTechItems: TechItem[] = [
   {
-    name: "JavaScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    name: "C",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
     proficiency: 90,
     category: "language",
   },
   {
-    name: "TypeScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    name: "C++",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
     proficiency: 85,
     category: "language",
-  },
-  {
-    name: "React",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    proficiency: 90,
-    category: "framework",
-  },
-  {
-    name: "Node.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    proficiency: 80,
-    category: "framework",
   },
   {
     name: "Python",
@@ -50,20 +38,14 @@ const defaultTechItems: TechItem[] = [
     category: "language",
   },
   {
-    name: "MongoDB",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    proficiency: 70,
-    category: "database",
+    name: "JIRA",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+    proficiency: 65,
+    category: "tool",
   },
   {
-    name: "PostgreSQL",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-    proficiency: 75,
-    category: "database",
-  },
-  {
-    name: "Docker",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    name: "Postman",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
     proficiency: 65,
     category: "tool",
   },
@@ -74,23 +56,29 @@ const defaultTechItems: TechItem[] = [
     category: "tool",
   },
   {
-    name: "AWS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
-    proficiency: 60,
+    name: "Linux",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    proficiency: 85,
     category: "tool",
   },
   {
-    name: "TailwindCSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    proficiency: 90,
-    category: "framework",
+    name: "HTML",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    proficiency: 80,
+    category: "language",
   },
   {
-    name: "Next.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    name: "CSS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    proficiency: 80,
+    category: "language",
+  },
+  {
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     proficiency: 80,
     category: "framework",
-  },
+},
 ];
 
 const TechStackVisualization: React.FC<TechStackVisualizationProps> = ({
@@ -99,7 +87,7 @@ const TechStackVisualization: React.FC<TechStackVisualizationProps> = ({
   const [activeCategory, setActiveCategory] = useState<string>("all");
   const [hoveredTech, setHoveredTech] = useState<string | null>(null);
 
-  const categories = ["all", "language", "framework", "tool", "database"];
+  const categories = ["all", "language", "framework", "tool"]; //, "database"];
 
   const filteredTechItems =
     activeCategory === "all"
