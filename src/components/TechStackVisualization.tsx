@@ -11,7 +11,7 @@ interface TechItem {
   name: string;
   icon: string;
   proficiency: number; // 1-100
-  category: "language" | "framework" | "tool" | "database";
+  category: "language" | "framework" | "tools" | "database";
 }
 
 interface TechStackVisualizationProps {
@@ -41,25 +41,25 @@ const defaultTechItems: TechItem[] = [
     name: "JIRA",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
     proficiency: 65,
-    category: "tool",
+    category: "tools",
   },
   {
     name: "Postman",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
     proficiency: 65,
-    category: "tool",
+    category: "tools",
   },
   {
     name: "Git",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     proficiency: 85,
-    category: "tool",
+    category: "tools",
   },
   {
     name: "Linux",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
     proficiency: 85,
-    category: "tool",
+    category: "tools",
   },
   {
     name: "HTML",
