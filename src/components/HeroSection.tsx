@@ -2,6 +2,9 @@ import React from "react";
 import { Button } from "./ui/button";
 import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
 
+import resume from "../assets/resume.pdf";
+import profilePic from "../assets/IMG_5874.jpg";
+
 interface HeroSectionProps {
   name?: string;
   title?: string;
@@ -16,10 +19,10 @@ const HeroSection = ({
   name = "Cade Farragut",
   title = "Software Engineer",
   biography = "Passionate developer with expertise in building modern web applications. Focused on creating elegant solutions to complex problems with clean, maintainable code.",
-  resumeUrl = "public/resume.pdf",
+  resumeUrl = resume,
   linkedinUrl = "https://www.linkedin.com/in/cadefarragut/",
   githubUrl = "https://github.com/cadefarragut",
-  profileImageUrl = "public/IMG_5874.jpg",
+  profileImageUrl = profilePic,
 }: HeroSectionProps) => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 
+import bartenderImage from "../assets/IMG_3530.jpg";
+import portrfolioImage from "../assets/projpic.jpg";
+
 interface Project {
   id: string;
   title: string;
@@ -94,7 +97,7 @@ const defaultProjects: Project[] = [
       "An Automated Bartender built with an Allen Bradley PLC and HMI Touchscreen Interface.",
     technologies: ["Ladder Logic", "Studio 5000", "EtherNet/IP", "Electrical Engineering"],
     imageUrl:
-      "public/IMG_3530.jpg",
+      bartenderImage,
     demoUrl: "https://github.com/cadefarragut/Automated-Bartender",
     repoUrl: "https://github.com/cadefarragut/Automated-Bartender",
   },
@@ -105,8 +108,8 @@ const defaultProjects: Project[] = [
       "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
     technologies: ["React", "TypeScript", "Tailwind"],
     imageUrl:
-      "public/projpic.jpg",
-    demoUrl: "https://example.com",
+      portrfolioImage,
+    demoUrl: "https://cadefarragut.com",
     repoUrl: "https://github.com/cadefarragut/PortfolioV2",
   },
 ];

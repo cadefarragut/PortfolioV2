@@ -260,8 +260,7 @@ const Home = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Get In Touch</h2>
           <div className="max-w-md mx-auto text-center">
             <p className="text-muted-foreground mb-6">
-              I'm currently open to new opportunities and collaborations. Feel
-              free to reach out if you'd like to connect!
+              Feel free to reach out if you'd like to connect!
             </p>
 
             <div className="flex justify-center gap-4">
