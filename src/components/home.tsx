@@ -204,7 +204,7 @@ const Home = () => {
                     <p className="text-muted-foreground leading-relaxed">
                     I ran daily tests on HPE's ROM chip, which stores the BIOS on Synergy server blades, 
                     and diagnosed bugs that prevented the servers from booting into the OS. 
-					          I validated recent code merges before firmware updates were released to customers, \
+					          I validated recent code merges before firmware updates were released to customers, 
                     ensuring proper boot functionality across Windows, Linux (Red Hat and SUSE), and VMware ESXi.
 					          At the end of my internship, I presented my work at the HPE intern project fair.
                     </p>
