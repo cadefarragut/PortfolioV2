@@ -202,15 +202,11 @@ const Home = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      I develop and maintain firmware for HPE iLO, a dedicated
-                      management interface that operates independently of the
-                      server's primary hardware and operating system, enabling
-                      full remote administration at all times. Our team manages
-                      bugs and tasks through the JIRA ticketing system and uses
-                      active sprints to track progress and meet deadlines. I
-                      work closely with hardware and software engineering teams
-                      to identify root causes and implement solutions through
-                      hands-on debugging, testing, and validation.
+                    I ran daily tests on HPE's ROM chip, which stores the BIOS on Synergy server blades, 
+                    and diagnosed bugs that prevented the servers from booting into the OS. 
+					          I validated recent code merges before firmware updates were released to customers, \
+                    ensuring proper boot functionality across Windows, Linux (Red Hat and SUSE), and VMware ESXi.
+					          At the end of my internship, I presented my work at the HPE intern project fair.
                     </p>
                   </div>
                 </div>

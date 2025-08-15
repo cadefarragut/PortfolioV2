@@ -87,7 +87,7 @@ const TechStackVisualization: React.FC<TechStackVisualizationProps> = ({
   const [activeCategory, setActiveCategory] = useState<string>("all");
   const [hoveredTech, setHoveredTech] = useState<string | null>(null);
 
-  const categories = ["all", "language", "framework", "tool"]; //, "database"];
+  const categories = ["all", "language", "framework", "tools"]; //, "database"];
 
   const filteredTechItems =
     activeCategory === "all"
