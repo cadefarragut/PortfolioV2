@@ -16,10 +16,10 @@ const HeroSection = ({
   name = "Cade Farragut",
   title = "Software Engineer",
   biography = "Passionate developer with expertise in building modern web applications. Focused on creating elegant solutions to complex problems with clean, maintainable code.",
-  resumeUrl = "../../resources/resume.pdf",
+  resumeUrl = "public/resume.pdf",
   linkedinUrl = "https://www.linkedin.com/in/cadefarragut/",
   githubUrl = "https://github.com/cadefarragut",
-  profileImageUrl = "../../resources/IMG_5874.jpg",
+  profileImageUrl = "public/IMG_5874.jpg",
 }: HeroSectionProps) => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
