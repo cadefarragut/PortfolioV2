@@ -105,7 +105,7 @@ const defaultProjects: Project[] = [
       "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
     technologies: ["React", "TypeScript", "Tailwind"],
     imageUrl:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+      "../../resources/projpic.jpg",
     demoUrl: "https://example.com",
     repoUrl: "https://github.com/cadefarragut/PortfolioV2",
   },

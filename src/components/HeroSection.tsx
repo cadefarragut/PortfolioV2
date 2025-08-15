@@ -32,9 +32,9 @@ const HeroSection = ({
               </h1>
               <p className="text-xl text-muted-foreground">{title}</p>
             </div>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl">
+            {/* <p className="max-w-[600px] text-muted-foreground md:text-xl">
               {biography}
-            </p>
+            </p> */}
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button asChild>
                 <a href="#projects">
