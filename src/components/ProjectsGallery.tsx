@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 import bartenderImage from "../assets/Screenshot 2025-08-14 205344.jpg";
 import portrfolioImage from "../assets/projpic.jpg";
-import discordbotimage from "../assets/qvWRYXQguGXtwW5tUR6Rw9-1200-80.png"
+import discordbotimage from "../assets/qvWRYXQguGXtwW5tUR6Rw9-1200-80.png";
 
 interface Project {
   id: string;
