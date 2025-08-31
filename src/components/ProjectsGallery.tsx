@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 import bartenderImage from "../assets/Screenshot 2025-08-14 205344.jpg";
 import portrfolioImage from "../assets/projpic.jpg";
+import discordbotimage from "../assets/qvWRYXQguGXtwW5tUR6Rw9-1200-80.png"
 
 interface Project {
   id: string;
@@ -103,6 +104,17 @@ const defaultProjects: Project[] = [
   },
   {
     id: "2",
+    title: "LeetifyTracker",
+    description:
+      "A Discord bot that automatically tracks members’ monthly activity and generates a dynamic leaderboard to showcase top performers.",
+    technologies: ["TypeScript", "Leetify API", "JSON"],
+    imageUrl:
+      discordbotimage,
+    demoUrl: "https://github.com/cadefarragut/LeetifyDiscordBot",
+    repoUrl: "https://github.com/cadefarragut/LeetifyDiscordBot",
+  },
+  {
+    id: "3",
     title: "Personal Portfolio Website",
     description:
       "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
